@@ -1,0 +1,19 @@
+[alias]
+        co = checkout
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        st = status -sb
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[diff "lisp"]
+        xfuncname = "^\\(([^ ]+ [^ \\)]+)"
+[color]
+        ui = auto
+        diff = auto
+[core]
+        pager = less
+        autocrlf = false
+        attributesfile = ~/.gitattributes
+        whitespace = blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+        eol = lf
+[i18n]
+        commitencoding = utf-8
+        logoutputencoding = utf-8
